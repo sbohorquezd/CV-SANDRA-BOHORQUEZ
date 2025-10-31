@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es" <head>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> CV SANDRA BOHORQUEZ </title>
+<link rel="stylesheet" href="DISEÑO.css">
+</head>
+<script>
+    window.addEventListener('load', () => {
+        const barras = document.querySelectorAll('.progreso');
+        barras.forEach(barra => {
+            const width = barra.getAttribute('style').match(/width:\s*(\d+)%/)[1];
+            barra.style.width = '0';
+            setTimeout(() => {
+                barra.style.width = width + '%';
+            }, 300);
+        });
+    });
+</script>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="drabo.jpeg" alt="Foto de perfil">
+            <div>
+                <h1>Sandra Carolina Bohórquez Díaz</h1>
+                <h2><strong>Ingeniera en Sistemas</strong></h2>
+            </div>
+            <div class="contact-info">
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:sbohorquezd@ucentral.edu.co" >sbohorquezd@ucentral.edu.co</a></p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:+573209071854">(+57) 320 907 1854</a></p>
+            </div>
+        </header>
+        <div class="experiencia">
+            <h3><strong>Experiencia Profesional</strong></h3>
+            <div class="experiencia-item">
+                <p><strong>Desarrollador software y Bases de Datos</strong> - Universidad Central</p>
+                <p> Enero 2024 - Actualmente</p>
+                <p>Brindo monitorias en cuanto a programación orientada a objetos y manejo y creacion de bases de Datos
+                    en donde se realiza desde cero las bases de datos teniendo en cuenta MR y pasar a limpio; adicional
+                    se explica el manejo de CRUD
+                    a los estudiantes para mejor evidenciacion, manejo de triggers, vistas; en PO creacion de clases,
+                    herencia, reusabilidad para el diseño en
+                    interfaz grafica
+                </p>
+            </div>
+            <div class="experiencia-item">
+                <p><strong>Atencion al cliente</strong>- STF GROUP S.A</p>
+                <P>02 de Noviembre 2023 - 02 de Novimebre 2024 </P>
+                <p>Durante este proceso tome el rol para Co-administradora en el cual se realizo manejo de software
+                    Siesa Pos, Unoe y manejos de inventario por aplicativo
+                    para obtencion de datos de merma, adicional manejo de personal, arqueo de caja y generación de plan
+                    de trabajo para cumplimiento de metas
+                    propuestas.
+                </p>
+            </div>
+        </div>
+        <div class="educacion">
+            <h4><strong>Educacion</strong></h4>
+            <div class="educacion- item">
+                <p><strong>Certificados</strong> Cisco Networking</p>
+                <ol>
+                    <li>
+                        <p><STRong>IT Essentials</STRong></p>
+                        <p>30 de enero de 2019 - 25 de octubre 2019</p>
+                    </li>
+                    <li>
+                        <p><strong>CCNAv7: Introducction to Networks</strong></p>
+                        <p>04 de febrero de 2020 - 03 de noviembre de 2020</p>
+                    </li>
+                    <li>
+                        <p><strong>CCNAv7: Switching, Routing, and Wireless Essentials</strong></p>
+                        <p>17 de febrero de 2021 - 26 de julio de 2021</p>
+                    </li>
+                </ol>
+                <div class="educacion-item">
+                    <p><strong>Bachiller Academico</strong> Colegio el Jazmin IED</p>
+                    <P>Graduada el 20 de noviembre de 2020</P>
+                </div>
+                <div class="educacion-item">
+                    <p><strong>Ingenieria de Sistemas</strong>Universidad Central</p>
+                    <p>8 de Agosto de 2023 - Actualmente</p>
+                </div>
+            </div>
+        </div>
+        <div class="habilidades">
+            <h5><strong>Habilidades Técnicas</strong></h5>
+
+            <div class="skill">
+                <p>Programación (Java, Python, C++)</p>
+                <div class="barra">
+                    <div class="progreso" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Bases de Datos (MySQL, SQL Server)</p>
+                <div class="barra">
+                    <div class="progreso" style="width: 85%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>Redes y Seguridad</p>
+                <div class="barra">
+                    <div class="progreso" style="width: 75%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>HTML y CSS</p>
+                <div class="barra">
+                    <div class="progreso" style="width: 80%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://www.linkedin.com/in/sandra-carolina-bohorquez-diaz-ingeniera-en-sistemas/" class="icono" target="_blank" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/sbohorquezd" class="icono" target="_blank" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        
+        <footer>
+            <p>Derechos de autor reservados Drabo</p>
+        </footer>
+</body>
+
+</html>
